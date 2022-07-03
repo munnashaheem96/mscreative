@@ -106,8 +106,6 @@ a{
 }
 
 .service-images .posters h3{
-    border: 2px solid #fff;
-    border-radius: 50px;
     font-size: 27px;
     color: #fff;
     display: inline-block;
@@ -119,8 +117,6 @@ a{
 }
 
 .service-images .logos h3{
-    border: 2px solid #fff;
-    border-radius: 50px;
     font-size: 27px;
     color: #fff;
     display: inline-block;
@@ -132,8 +128,6 @@ a{
 }
 
 .service-images .web h3{
-    border: 2px solid #fff;
-    border-radius: 50px;
     font-size: 27px;
     color: #fff;
     display: inline-block;
@@ -143,6 +137,10 @@ a{
     right: 0;
     bottom: 0;
     z-index: -1;
+}
+
+.verticalbg{
+    display: none;
 }
 
 
