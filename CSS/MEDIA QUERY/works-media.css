@@ -47,6 +47,7 @@
 
     .content{
         text-align: center;
+        padding-top: 200px;
     }
     
     .content h1{
@@ -84,9 +85,12 @@
     .service-images{
         padding-top: 20px;
         display: flex;
-        flex-direction: column;
         padding-left: 100px;
         padding-right: 100px;
+        flex-direction: column-reverse;
+        align-content: stretch;
+        justify-content: flex-start;
+        align-items: center;
     }
     .service-images img{
         width: 110px;
