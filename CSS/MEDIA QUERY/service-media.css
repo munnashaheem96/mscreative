@@ -13,6 +13,9 @@
 }
 
 @media(max-width: 909px){
+    nav{
+        padding-bottom: 232px;
+    }
     nav #icon{
         display: block;
     }
@@ -47,6 +50,7 @@
 
     .content{
         text-align: center;
+        padding-top: 200px;
     }
     
     .content h1{
@@ -86,13 +90,13 @@
         display: flex;
         padding-left: 100px;
         padding-right: 100px;
-        flex-direction: column-reverse;
+        flex-direction: row;
         align-content: stretch;
         justify-content: flex-start;
-        align-items: center;
+        align-items: center
     }
     .service-images img{
-        width: 110px;
+        width: 90px;
         height: auto;
     }
     
