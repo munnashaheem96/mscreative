@@ -21,7 +21,8 @@
 nav{
     height: 80px;
     width: 100%;
-    background: transparent;    
+    background: transparent;
+    padding-bottom: 20px;    
 }
 nav .logo{
     width: 80px;
@@ -77,12 +78,12 @@ nav #icon{
 
 .content p{
     color: #fff;
-    font-size: 19px;
+    font-size: 12px;
     justify-content: center;
     padding-top: 20px;
-    padding-left: 200px;
-    padding-right: 200px;
-
+    padding-left: 90px;
+    padding-right: 90px;
+    text-transform: uppercase;
 }
 a{
     text-decoration: none;
@@ -92,8 +93,7 @@ a{
     padding-top: 30px;
     display: flex;
     flex-direction: row;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding: 3px 445px;
 }
 .service-images img{
     border-radius: 9px;

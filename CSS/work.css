@@ -94,6 +94,10 @@ a.active,a:hover{
     z-index: -1;
 }
 
+.verticalbg{
+    display: none;
+}
+
 @media (min-aspect-ratio: 16/9){
     .back-video{
         width: 100%;
